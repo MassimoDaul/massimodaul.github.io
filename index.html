@@ -3,20 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Massimo's Portfolio</title>
+    <title>Massimo Daul</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; text-align: center; }
-        h1 { color: #333; }
-        a { color: blue; text-decoration: none; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            max-width: 600px;
+            width: 100%;
+            text-align: left;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .about {
+            max-width: 400px;
+        }
+        .projects-box {
+            margin-top: 20px;
+            padding: 20px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 600px;
+            background-color: #f9f9f9;
+        }
+        a {
+            display: block;
+            color: blue;
+            text-decoration: none;
+            margin: 5px 0;
+        }
     </style>
 </head>
 <body>
-    <h1>Massimo's Portfolio</h1>
-    <p>Welcome to my personal website!</p>
-    <h2>Projects</h2>
-    <ul>
-        <li><a href="https://github.com/yourusername/project1">Project 1</a></li>
-        <li><a href="https://github.com/yourusername/project2">Project 2</a></li>
-    </ul>
+    <div class="container">
+        <img src="images/IMG_2567.JPG" alt="Massimo Daul">
+        <div class="about">
+            <h1>Massimo Daul</h1>
+            <p>abcd</p>
+        </div>
+    </div>
+    <div class="projects-box">
+        <h2>Projects</h2>
+        <a href="https://github.com/yourusername/project1">Project 1</a>
+        <a href="https://github.com/yourusername/project2">Project 2</a>
+    </div>
 </body>
 </html>
