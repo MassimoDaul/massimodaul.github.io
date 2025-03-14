@@ -8,4 +8,4 @@ Hi, I'm **Massimo Daul**! I'm a Math & CS student researching low-resource langu
 
 - 📖 Check out my [research](/research/).
 - 🛠️ See my [projects](/projects/).
-- 📬 Contact me via [email](mailto:your-email@example.com).
+- 📬 Contact me via [mmd9604 at nyu dot edu].
