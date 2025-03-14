@@ -1,3 +1,37 @@
-remote_theme: mmistakes/minimal-mistakes
+title: "Massimo Daul"
+description: "Math & CS student researching low-resource languages."
+baseurl: "" # Leave blank unless using a subdirectory
+url: "https://massimodaul.github.io" # Change if using a custom domain
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Author
+author:
+  name: "Massimo Daul"
+  bio: "Math & CS student. I research low-resource languages."
+  avatar: "/images/IMG_2567.JPG"
+
+# Social links (optional)
+social:
+  github: massimodaul
+  email: "your-email@example.com"
+
+# Navigation (add more if needed)
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Research"
+    url: /research/
+  - title: "Projects"
+    url: /projects/
+  - title: "Contact"
+    url: /contact/
+
+# Build settings
+markdown: kramdown
