@@ -6,6 +6,20 @@ body {
     background-color: #f4f4f4;
 }
 
+.profile-container {
+    text-align: center;  /* Centering the image and button */
+    margin-bottom: 20px;  /* Space between the profile section and the nav */
+}
+
+.profile-container img {
+    display: block;  /* Ensures the image is treated as a block-level element */
+    margin: 0 auto;  /* Centers the image horizontally */
+}
+
+.profile-container button {
+    margin-top: 10px;  /* Adds space between the image and the button */
+}
+
 header {
     background-color: #333;
     color: white;
