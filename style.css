@@ -99,3 +99,17 @@ button:hover {
 section {
     margin: 20px 0;
 }
+
+/* Align content to the left while keeping it centered on the page horizontally */
+.left-section {
+    max-width: 800px; /* Optional: Set a max width for readability */
+    margin: 0 auto; /* Centers the section horizontally */
+    text-align: left; /* Aligns text to the left */
+    padding: 20px;
+}
+
+/* Optional: Add some spacing between sections */
+section {
+    margin-bottom: 40px;
+}
+
