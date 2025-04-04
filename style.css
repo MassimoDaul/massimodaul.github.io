@@ -85,3 +85,17 @@ button:hover {
     background-color: #0056b3;
 }
 
+/* Center content horizontally and vertically */
+.centered-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  /* Optional: Ensures text is also centered inside */
+    flex-direction: column;  /* Stacks elements vertically */
+    margin: 20px;
+}
+
+/* Optional: To add some space between sections */
+section {
+    margin: 20px 0;
+}
