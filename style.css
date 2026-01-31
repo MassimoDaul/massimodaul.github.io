@@ -6,21 +6,30 @@ body {
     background-color: #f4f4f4;
 }
 
-.about-photo {
-    width: 100%;
-    max-width: 320px;
-    overflow: hidden;        /* 👈 safety net */
+.about-photo-right {
+    float: right;
+    max-width: 220px;
+    margin: 0 0 1rem 1.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #666;
 }
 
-
-.about-photo img {
-    display: block;          /* 👈 critical */
-    max-width: 100%;         /* 👈 prevents overflow */
+.about-photo-right img {
     width: 100%;
     height: auto;
+    display: block;
     border-radius: 8px;
 }
 
+/* Mobile fix: stack image above text */
+@media (max-width: 768px) {
+    .about-photo-right {
+        float: none;
+        margin: 1rem auto;
+        max-width: 260px;
+    }
+}
 
 
 .profile-container {
