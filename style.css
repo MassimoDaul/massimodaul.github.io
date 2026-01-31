@@ -12,9 +12,12 @@ body {
 }
 
 .profile-container img {
-    display: block;  /* Ensures the image is treated as a block-level element */
-    margin: 0 auto;  /* Centers the image horizontally */
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%; /* optional, but looks good */
 }
+
 
 .profile-container button {
     margin-top: 10px;  /* Adds space between the image and the button */
