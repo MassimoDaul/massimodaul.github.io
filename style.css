@@ -7,18 +7,20 @@ body {
 }
 
 .about-photo {
+    width: 100%;
     max-width: 320px;
-    margin: 1.5rem auto;
-    text-align: center;
-    font-size: 0.85rem;
-    color: #666;
+    overflow: hidden;        /* 👈 safety net */
 }
 
+
 .about-photo img {
+    display: block;          /* 👈 critical */
+    max-width: 100%;         /* 👈 prevents overflow */
     width: 100%;
     height: auto;
     border-radius: 8px;
 }
+
 
 
 .profile-container {
