@@ -167,3 +167,15 @@ footer {
     width: 100%;
     left: 0;
 }
+
+/* ----- CV Link ------ */
+#contact a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
