@@ -22,9 +22,11 @@ body {
 
 
 .profile-container {
-    text-align: center;  /* Centering the image and button */
-    margin-bottom: 20px;  /* Space between the profile section and the nav */
+    display: flex;
+    align-items: center;
+    gap: 24px; /* 👈 THIS adds space between image and button */
 }
+
 
 .profile-container img {
     width: 180px;
