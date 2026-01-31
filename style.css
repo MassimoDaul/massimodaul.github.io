@@ -6,6 +6,21 @@ body {
     background-color: #f4f4f4;
 }
 
+.about-photo {
+    max-width: 320px;
+    margin: 1.5rem auto;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.about-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
 .profile-container {
     text-align: center;  /* Centering the image and button */
     margin-bottom: 20px;  /* Space between the profile section and the nav */
